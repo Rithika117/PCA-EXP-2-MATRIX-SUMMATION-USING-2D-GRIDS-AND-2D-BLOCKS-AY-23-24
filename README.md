@@ -1,9 +1,9 @@
-<img width="923" height="237" alt="image" src="https://github.com/user-attachments/assets/190714e0-2fe8-415f-b51c-cdcf23d8aac1" /># PCA-EXP-2-Matrix-Summation-using-2D-Grids-and-2D-Blocks-AY-23-24
+# PCA-EXP-2-Matrix-Summation-using-2D-Grids-and-2D-Blocks-AY-23-24
 
 <h3>AIM:</h3>
-<h3>Rithika K</h3>
-<h3>212224230230</h3>
-<h3>EX. NO02</h3>
+<h4>Name:Rithika K</h4>
+<h4>Reg.212224230230</h4>
+<h4>EX.NO:02</h4>
 <h3>DATE:15/05/2026</h3>
 <h1> <align=center> MATRIX SUMMATION WITH A 2D GRID AND 2D BLOCKS </h3>
 i.  Use the file sumMatrixOnGPU-2D-grid-2D-block.cu
@@ -15,9 +15,6 @@ To perform  matrix summation with a 2D grid and 2D blocks and adapting it to int
 ## EQUIPMENTS REQUIRED:
 Hardware – PCs with NVIDIA GPU & CUDA NVCC
 Google Colab with NVCC Compiler
-
-
-
 
 ## PROCEDURE:
 
@@ -35,6 +32,7 @@ Google Colab with NVCC Compiler
 12.	Reset the device: Reset the device using cudaDeviceReset to ensure that all resources are cleaned up before the program exits.
 
 ## PROGRAM:
+```
 %%cuda
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -274,7 +272,7 @@ int main(int argc, char **argv)
 
     return (0);
 }
-
+```
 ## OUTPUT:
 <img width="923" height="237" alt="image" src="https://github.com/user-attachments/assets/9b7b1743-12cb-4320-b6dd-3bb16c6a1a6d" />
 
